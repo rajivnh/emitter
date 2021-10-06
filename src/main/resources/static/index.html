@@ -1,0 +1,7 @@
+<script>
+	var source = new EventSource('/receive');
+	
+	source.addEventListener('message', function(e) {
+		console.log(e.data);
+	}, false);
+</script>
