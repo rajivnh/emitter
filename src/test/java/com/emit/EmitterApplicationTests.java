@@ -9,5 +9,4 @@ class EmitterApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
 }
